@@ -5,9 +5,9 @@
   padding:0;
 }
 
-.body {
+body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  background-color:red;
+  background-color:black;
 }

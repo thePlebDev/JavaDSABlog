@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Java DSA</title>
+    <meta name="description" content="Learn about data structures and algorithms in Java" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/blogPostEditor.css" />
+    <script src="/javascript/blogPostEditor.js" defer></script>
+</head>
+
+<body>
+<div class="editorCreator">
+    <h1>THIS IS THE CREATE POST PAGE</h1>
+    <form>
+        <label for="my_text_area">Enter the Blog post:</label>
+        <textarea id="my_text_area" name="story"
+                  rows="5" cols="33">
+</textarea>
+    </form>
+    <div id="editDisplay" class="display">
+
+    </div>
+
+</div>
+
+<script th:inline="javascript">
+/*<![CDATA[*/
+
+    var message = /*[[${test}]]*/
+    console.log(message);
+    const textArea = document.getElementById('my_text_area');
+    const editDisplay = document.getElementById('editDisplay');
+
+textArea.addEventListener('input', () => {
+
+    editDisplay.innerHTML = textArea.value;
+
+})
+
+/*]]>*/
+</script>
+
+</body>
+</html>
