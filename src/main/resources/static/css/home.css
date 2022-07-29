@@ -57,4 +57,53 @@ color: #fff;
     border-radius:8px;
 
 }
+.subContainer{
+
+    height:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.subForm{
+    display:flex;
+
+}
+.subInput{
+    width:300px;
+    padding:10px;
+    font-size:20px;
+    border-radius:8px;
+}
+.subButton{
+
+    padding:11px; 20px;
+    font-size:20px;
+    border-radius:8px;
+    margin-left:40px;
+    cursor:pointer;
+
+
+}
+.neonTextNBorder{
+    background-color:black;
+    color: #fff;
+    align-text:center;
+    text-align:center;
+    padding:10px;
+    text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+    border:2px solid hsl(317 100% 54%);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em;
+    box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+
+}
+
 
