@@ -8,11 +8,14 @@
 }
 .editorCreator{
     display:flex;
+    justify-content:space-between;
 }
 .display{
     width:50%;
     height:100vh;
     padding:10px;
     border:2px solid red;
+    background-color:black;
+    color:red;
 
 }
